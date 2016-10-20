@@ -18,5 +18,7 @@ env:
 	$(VENV_BIN)/pip install -r requirements.txt
 	$(PYTHON) setup.py develop
 
+start:
+	$(VENV_BIN)/jupyter notebook Twisted-Tutorial.ipynb
 
 
